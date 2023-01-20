@@ -24,10 +24,6 @@ button {
   margin-right:1em
 }
 
-.quoteRank {
-  margin-top: 2vh;
-}
-
 .welcome {
   display:flex;
   justify-content: center;
