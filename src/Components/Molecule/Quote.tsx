@@ -17,7 +17,7 @@ const Quote: React.FC<IQuote> = (props) => {
                 <div>
                     {props.grade !== undefined ?
                         <>
-                            <Span>{'Nota:' + props.grade.toString() + ' ||'}</Span>
+                            <Span>{'Nota:' + props.grade.toString() + ' || '}</Span>
                         </>
                         : null
                     }
