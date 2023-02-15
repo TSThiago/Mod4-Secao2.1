@@ -7,7 +7,7 @@ interface ISpanProps {
 const Span: React.FC<ISpanProps> = (props) => {
     return (
         <>
-            <span>{props.children}</span>
+            <span data-testid="test-span">{props.children}</span>
         </>
     )
 }
