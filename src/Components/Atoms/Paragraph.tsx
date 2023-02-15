@@ -4,12 +4,12 @@ interface IPProps {
     children: string
 }
 
-const P: React.FC<IPProps> = (props) => {
+const Paragraph: React.FC<IPProps> = (props) => {
     return (
         <>
-            <p>{props.children}</p>
+            <p data-testid="test-p" >{props.children}</p>
         </>
     )
 }
 
-export default P;
+export default Paragraph;

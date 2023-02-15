@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import { IQuote } from "../Molecule/Quote";
 
 interface IButtonProps {
@@ -10,7 +10,7 @@ interface IButtonProps {
 const Button: React.FC<IButtonProps> = (props) => {
     return (
         <>
-            <button onClick={() => {props.OnClick(props.quote, parseInt(props.children))}}>{props.children}</button>
+            <button data-testid="test-button" onClick={() => {props.OnClick(props.quote, parseInt(props.children))}}>{props.children}</button>
         </>
     )
 }
